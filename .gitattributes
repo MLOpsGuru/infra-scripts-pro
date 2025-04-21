@@ -1,0 +1,55 @@
+# Enforce LF line endings for all text files across OSes
+* text=auto eol=lf
+
+# Explicit: core scripting & infra automation
+*.sh     text eol=lf
+*.bash   text eol=lf
+*.zsh    text eol=lf
+*.ps1    text eol=lf
+*.bat    text eol=lf
+*.cmd    text eol=lf
+
+# DevOps infra: Docker / Terraform / Kubernetes / Argo / CI
+Dockerfile*  text eol=lf
+*.dockerignore text eol=lf
+*.tf       text eol=lf
+*.tfvars   text eol=lf
+*.yaml     text eol=lf
+*.yml      text eol=lf
+*.json     text eol=lf
+*.conf     text eol=lf
+*.ini      text eol=lf
+
+# CI/CD tools
+*.jenkinsfile text eol=lf
+*.groovy      text eol=lf
+*.circleci    text eol=lf
+*.gitlab-ci.yml text eol=lf
+*.github/workflows/* text eol=lf
+
+# ML pipeline configs
+*.mlmodel   text eol=lf
+*.mlproject text eol=lf
+*.env       text eol=lf
+*.cfg       text eol=lf
+
+# Code and docs
+*.py      text eol=lf
+*.ipynb   text eol=lf
+*.md      text eol=lf
+*.txt     text eol=lf
+*.rst     text eol=lf
+
+# Ignore binaries: don't try to change line endings
+*.jpg     binary
+*.jpeg    binary
+*.png     binary
+*.gif     binary
+*.pdf     binary
+*.ico     binary
+*.zip     binary
+*.tar     binary
+*.gz      binary
+*.exe     binary
+*.dll     binary
+*.so      binary
