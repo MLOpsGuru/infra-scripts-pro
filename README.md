@@ -1,10 +1,14 @@
 # infra-scripts-pro 🚀
 
-> A curated toolbox of automation and observability scripts for senior DevOps, SRE, and MLOps engineers.
+A curated toolbox of automation and observability scripts for senior DevOps, SRE, and MLOps workflows.
 
-## 🔧 What's Inside
+---
 
-Modular shell and Python scripts organized for reuse in CI/CD, cloud automation, and production incident tooling.
+### 🔧 What's Inside
+
+Modular shell and Python scripts organized for use in CI/CD pipelines, infrastructure automation, and system debugging.
+
+
 
 ```
 .
@@ -17,44 +21,45 @@ Modular shell and Python scripts organized for reuse in CI/CD, cloud automation,
 ├── utilities/                              # Cloud backups, bootstrap
 ```
 
+
 ---
 
 ### 🔍 Key Features
 
 ✅ GitHub Actions CI with lint/test gates  
-🔐 Secrets-free scripts, built for secure environments  
-📦 Docker + K8s + Terraform ready  
-📈 Linux health reporting + cost auditing tools  
-🧰 Bootstrap utilities for fast setup  
+🔐 Secrets-free scripts designed for automation use  
+📦 Docker + Kubernetes + Terraform coverage  
+📈 Health checks, log watchers, and cost estimators  
+🧰 Setup tools for fast and consistent environments  
 
 ---
 
 ### 💡 How to Use
 
-- Scripts are standalone, documented, and modular  
-- Use manually or automate via GitHub Actions, cron, or systemd  
-- Suitable for real-world use or as starter templates
+- Run standalone, or schedule via GitHub Actions, cron, or systemd  
+- Scripts are modular and portable across Linux distros  
+- Designed to be dropped into existing infra setups or used as templates
 
 ---
 
 ### 🧪 Code Hygiene
 
-Scripts are:
-- `shellcheck`-compliant (where applicable)
-- YAML follows `yamllint` guidelines
-- Folder and file structure reflect platform team best practices
-- Cross-platform safe (LF line endings via `.gitattributes`)
+Planned support for:
+- `shellcheck` (Bash)
+- `yamllint` (CI workflows)
+- `.gitattributes` + `.gitignore` for cross-platform consistency
 
 ---
 
 ### 📬 Contributions
 
-Contributions welcome — especially improvements based on real-world CI/CD, Kubernetes, or Terraform experience.
+Contributions welcome — especially improvements tested in real-world CI/CD, Kubernetes, or Terraform environments.
 
 ---
 
 ### 👨‍💻 Maintainer
 
-Built as part of a professional DevOps/MLOps portfolio, this repo curates tools that solve real infrastructure needs — fast, safely, and portably.
+Developed and maintained as part of an infrastructure-focused portfolio  
+aimed at platform reliability, automation, and delivery engineering.
 
 🔗 GitHub: [MLOpsGuru](https://github.com/MLOpsGuru)
