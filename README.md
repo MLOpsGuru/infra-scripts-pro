@@ -17,34 +17,44 @@ Modular shell and Python scripts organized for reuse in CI/CD, cloud automation,
 ├── utilities/                              # Cloud backups, bootstrap
 ```
 
-## 🔍 Key Features
+---
 
-- ✅ GitHub Actions CI with lint/test gates
-- 🔐 Secrets-free scripts, designed for real infra
-- 📦 Docker + K8s + Terraform ready
-- 📈 Linux health monitoring + cost auditing
-- 🧰 Fast setup tools for new environments
+### 🔍 Key Features
 
-## 💡 How to Use
-
-- Each script is standalone and documented
-- Integrate with GitHub Actions or cron/systemd
-- Use as templates or production tools
-
-## 🧪 Quality Signals
-
-- `shellcheck` compliance (Bash)
-- `yamllint` for all workflow files
-- Folder naming and logic follow platform team best practices
+✅ GitHub Actions CI with lint/test gates  
+🔐 Secrets-free scripts, built for secure environments  
+📦 Docker + K8s + Terraform ready  
+📈 Linux health reporting + cost auditing tools  
+🧰 Bootstrap utilities for fast setup  
 
 ---
 
-## 📬 Contributions
+### 💡 How to Use
 
-If you're a platform engineer and want to add battle-tested infra utilities, PRs are welcome.
+- Scripts are standalone, documented, and modular  
+- Use manually or automate via GitHub Actions, cron, or systemd  
+- Suitable for real-world use or as starter templates
 
 ---
 
-## 🧠 Author
+### 🧪 Code Hygiene
 
-Built by an engineer on a 10-week mission to demonstrate senior DevOps/MLOps readiness. Follow the [GitHub profile](https://github.com/MLOpsGuru) for project logs and updates.
+Scripts are:
+- `shellcheck`-compliant (where applicable)
+- YAML follows `yamllint` guidelines
+- Folder and file structure reflect platform team best practices
+- Cross-platform safe (LF line endings via `.gitattributes`)
+
+---
+
+### 📬 Contributions
+
+Contributions welcome — especially improvements based on real-world CI/CD, Kubernetes, or Terraform experience.
+
+---
+
+### 👨‍💻 Maintainer
+
+Built as part of a professional DevOps/MLOps portfolio, this repo curates tools that solve real infrastructure needs — fast, safely, and portably.
+
+🔗 GitHub: [MLOpsGuru](https://github.com/MLOpsGuru)
