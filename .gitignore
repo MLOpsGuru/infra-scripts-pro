@@ -1,0 +1,10 @@
+# VSCode + OS junk
+.vscode/
+.DS_Store
+Thumbs.db
+AppData/
+*.log
+*.pyc
+logs/
+../
+
