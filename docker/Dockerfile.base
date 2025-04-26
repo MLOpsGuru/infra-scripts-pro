@@ -1,0 +1,8 @@
+# Base Dockerfile for future application containers
+FROM python:3.11-slim
+
+# Set working directory
+WORKDIR /app
+
+# Default command
+CMD ["bash"]
